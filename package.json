@@ -1,0 +1,17 @@
+{
+  "name": "template-node-package",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "author": "Roberto Ríos <contact@rrios.dev>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "devDependencies": {
+    "eslint-config-node": "*",
+    "jest-config-node": "*",
+    "tsconfig": "*"
+  }
+}
